@@ -14,5 +14,6 @@ func changeNumberWithoutPointer(i int) {
 	i++
 }
 func changeNumberWithPointer(i *int) {
+	fmt.Println("address of i:", i)
 	*i++
 }
