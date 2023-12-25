@@ -3,11 +3,11 @@ package main
 import "fmt"
 
 func main() {
-	nextint := returnAClosure()
-	fmt.Println(nextint())
-	fmt.Println(nextint())
-	fmt.Println(nextint())
-	fmt.Println(nextint())
+	nextInt := returnAClosure()
+	fmt.Println(nextInt())
+	fmt.Println(nextInt())
+	fmt.Println(nextInt())
+	fmt.Println(nextInt())
 }
 func returnAClosure() func() int {
 	i := 0
