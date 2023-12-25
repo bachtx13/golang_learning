@@ -3,8 +3,8 @@ package main
 import "fmt"
 
 func main() {
-	defer fmt.Println("world")
-
-	fmt.Println("hello")
-	fmt.Println("1")
+	for i := 0; i < 10; i++ {
+		defer fmt.Printf("cauuu %d\n", i)
+	}
+	fmt.Println("yeuuuu")
 }
